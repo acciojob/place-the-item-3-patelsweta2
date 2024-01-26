@@ -5,6 +5,13 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
 }
+
+.holder > * {
+  flex: 1;
+  min-width: 30%; 
+  margin: 10px; 
+}
+
 .item {
       width: 100px; 
       height: 100px; 
